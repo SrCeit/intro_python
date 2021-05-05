@@ -136,6 +136,14 @@ print(a.strip())
 a = "Hello, World, en, Python!"
 print(a.split(","))
 
+a = "\u0033" #con unicode, unicode para 3
+print(a.isdecimal())
+
+a = "23" #Numeros como -1 y 1.5 no son considerados numericos ya que tienen caracteres no numéricos
+print(a.isnumeric())
+
+#https://www.w3schools.com/python/python_ref_string.asp
+
 
 
 
