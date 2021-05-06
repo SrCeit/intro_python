@@ -126,3 +126,59 @@ print(saludoLista)
 #Cambiar un valor por otro
 nuevaLista = [x if x != "dragón" else "Fedor" for x in newList]
 print(nuevaLista)
+
+#Ordenar listas ascendente
+frutas = ["naranja", "mango", "kiwi", "piña", "frambuesa"]
+print(frutas)
+frutas.sort()
+print(frutas)
+
+#La funcion sort() es sensible a las mayusculasy las coloca antes que la sminusculas
+frutas2 = ["Naranja", "mango","apetinas", "kiwi", "piña", "frambuesa"]
+frutas2.sort()
+print("Con sort() las mayusculas se ordenan antes que las minusculas ", frutas2)
+frutas2.sort(key = str.lower)
+print("Con sort(key = str.lower se ordenan ignorando las mayusculas", frutas2)
+
+#Ordenar listas descendente
+numeros = [100, 20, 33, 44, 5]
+numeros.sort(reverse = True)
+print(numeros)
+
+#Ordenar una lista dependiendo de lo cerca que ese numero este de otro
+def funcion(n):
+    return abs(n - 50)
+
+numeros.sort(key = funcion, reverse = True)
+print("Orden segun funcion y reverse = True", numeros)
+
+#Mostrar lista desde el final
+print("Sin .reverse", numeros)
+numeros.reverse()
+print("Con .reverse", numeros)
+
+#Copiar lista
+ejemplo = ["hola", "mundo", "cruel"]
+copia = ejemplo.copy()
+print(copia)
+
+copia2 = list(ejemplo)
+print(copia2)
+
+#Concatenar listas
+lista1 = ["a", "b", "c"]
+lista2 = [1, 2, 3]
+
+lista3 = lista1 + lista2
+print(lista3)
+
+for x in lista2:
+    lista1.append(x)
+print(lista1)
+
+list1 = ["a", "b" , "c"]
+
+list1.extend(lista2)
+print(list1) 
+
+#https://www.w3schools.com/python/python_lists_methods.asp
