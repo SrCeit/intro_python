@@ -2,3 +2,9 @@
 miTuple = ("Rodolfo", "Katy", "Kike")
 print(miTuple)
 
+#Metodo len()
+print(len(miTuple))
+
+#Varios tipos de datos en una misma tuple
+tuple1 = 
+
