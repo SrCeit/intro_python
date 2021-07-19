@@ -181,4 +181,11 @@ list1 = ["a", "b" , "c"]
 list1.extend(lista2)
 print(list1) 
 
+list2 = ["a", "B" , "c"]
+list2.sort()
+print("La lista se ordena según el código ASCII",list2)
+
+list2.sort(key=str.lower)
+print("Con key=str.lower ignoramos las mayusculas a la hora de ordenar una lista", list2)
+
 #https://www.w3schools.com/python/python_lists_methods.asp

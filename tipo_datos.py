@@ -107,3 +107,10 @@ print(type(x))
 x = memoryview(bytes(5))
 print(x)
 print(type(x))
+
+#Binario, octal y hexadecimal
+print("El binario de 18: ", bin(18))
+
+print("El octal de 18: ", oct(18))
+
+print("El hexadecimal de 18: ", hex(18))
