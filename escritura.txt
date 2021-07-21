@@ -1,0 +1,1 @@
+Hola, al poner w usamos o creamos un fichero y lo sobreescribimos desde el principio

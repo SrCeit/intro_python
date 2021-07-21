@@ -288,7 +288,7 @@ print(hora.rsplit(":",1))
 
 texto = "Linea 1\nLinea 2\nLinea 3" 
 print(texto.splitlines())
-['Linea 1', 'Linea 2', 'Linea 3']
+#['Linea 1', 'Linea 2', 'Linea 3']
 
 
 '''

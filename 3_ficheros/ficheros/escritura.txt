@@ -1,0 +1,2 @@
+Machacamos el contenido del fichero si en la función open escribirmos 'w'
+Para escribir al final de un fichero que ya existe utilizamos 'a'

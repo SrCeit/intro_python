@@ -108,6 +108,20 @@ x = memoryview(bytes(5))
 print(x)
 print(type(x))
 
+#Encode y decode
+byte1 = bytes("piña", "latin1")
+print(byte1)
+print(byte1.decode("utf-8", "ignore"))
+
+byte1 = bytes("piña", "latin1")
+print(byte1.decode("utf-8", "replace"))
+
+cad = "piña"
+byte1 = cad.encode("utf-8")
+print("Utilizando cad.encode('utf-8') ", byte1) #Convertir una cadena unicode a bytes
+
+print("Utilizando cad.decode('utf-8') ", byte1.decode("utf-8")) #De bytes a unicode
+
 #Binario, octal y hexadecimal
 print("El binario de 18: ", bin(18))
 

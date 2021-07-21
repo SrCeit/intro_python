@@ -1,0 +1,10 @@
+Este
+es 
+el
+texto
+que
+va
+a
+ser
+copiado
+en destino.txt
