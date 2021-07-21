@@ -1,0 +1,68 @@
+[
+    {
+        "datasetid": "vacunas-recibidas-covid",
+        "fields": {
+            "fecha": "2021-02-11",
+            "marca": "Pfizer- BioNTech",
+            "provincia": "Burgos",
+            "total_vacunas_recibidas": 29250
+        },
+        "record_timestamp": "2021-07-21T10:15:39.130+02:00",
+        "recordid": "07dbc2055ffbc1380a589f2608ccc5f82df19d38"
+    },
+    {
+        "datasetid": "vacunas-recibidas-covid",
+        "fields": {
+            "fecha": "2021-02-11",
+            "marca": "Moderna",
+            "provincia": "Burgos",
+            "total_vacunas_recibidas": 1500
+        },
+        "record_timestamp": "2021-07-21T10:15:39.130+02:00",
+        "recordid": "bd1292f6ba476893751205d2d6559f00f24b2360"
+    },
+    {
+        "datasetid": "vacunas-recibidas-covid",
+        "fields": {
+            "fecha": "2021-02-11",
+            "marca": "Astra Z\u00e9neca",
+            "provincia": "Burgos",
+            "total_vacunas_recibidas": 1500
+        },
+        "record_timestamp": "2021-07-21T10:15:39.130+02:00",
+        "recordid": "b152954daa190b1adfa323e8056a8d44e7656cbf"
+    },
+    {
+        "datasetid": "vacunas-recibidas-covid",
+        "fields": {
+            "fecha": "2021-02-16",
+            "marca": "Moderna",
+            "provincia": "Burgos",
+            "total_vacunas_recibidas": 1500
+        },
+        "record_timestamp": "2021-07-21T10:15:39.130+02:00",
+        "recordid": "cb29dead4ba19cc6fc7c006e142e48f48d981954"
+    },
+    {
+        "datasetid": "vacunas-recibidas-covid",
+        "fields": {
+            "fecha": "2021-02-21",
+            "marca": "Pfizer- BioNTech",
+            "provincia": "Burgos",
+            "total_vacunas_recibidas": 33930
+        },
+        "record_timestamp": "2021-07-21T10:15:39.130+02:00",
+        "recordid": "48f6c326368d174e305a203dab80949c519c66b0"
+    },
+    {
+        "datasetid": "vacunas-recibidas-covid",
+        "fields": {
+            "fecha": "2021-02-21",
+            "marca": "Moderna",
+            "provincia": "Burgos",
+            "total_vacunas_recibidas": 1500
+        },
+        "record_timestamp": "2021-07-21T10:15:39.130+02:00",
+        "recordid": "c910f70ab4b988b94e85c2b8c5e4ee014e101667"
+    }
+]
