@@ -3,6 +3,9 @@ import operaciones as opr #Importamos el módulo que hemos creado operaciones.py
 print(opr.cuadrado(2))
 continuar = True
 
+print(opr.fib(232))
+print(opr.fib2(232))
+
 while continuar:
     try:
 
@@ -17,7 +20,6 @@ while continuar:
             break
         else:
             continue
-        
 
     except ValueError as ve:
         print ("Debes introducir un número")
@@ -26,5 +28,4 @@ while continuar:
     except Exception as e:
         print(type(e))
         print(e)
-        print(e.args)     
-    
+        print(e.args)
