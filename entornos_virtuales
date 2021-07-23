@@ -1,0 +1,22 @@
+Entornos virtuales:  es un mecanismo que me permite gestionar programas y paquetes python sin tener permisos de administración, 
+es decir, cualquier usuario sin privilegios puede tener uno o más “espacios aislados”
+    
+    -virtualenv
+    -venv
+
++virtualenv:
+
+    - Windows: pip install virtualenv
+    -Linux (gestor apt): apt-get install python-virtualenv
+
+    -> Creamos el entorno: virtualenv -p /usr/bin/python3 entorno
+    -> Activamos el entorno: source entorno/bin/activate
+    *Para desactivarlo: deactive
+
++venv:
+    
+    -Linux: apt-get install python3-venv
+
+    -> Creamos el entorno: python3 -m venv entorno
+    -> Actirvar: entorno/bin/activate
+    -> Desactivar: deactive
